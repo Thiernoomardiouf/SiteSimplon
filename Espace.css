@@ -30,11 +30,34 @@ body{
     height: 60px;
     width: 150px;
 }
-/* #reseau{
-    width: 0;
-      height: 500px;
-      border-top: 0vw solid transparent;
-      border-left: 100vw solid #CE0033;
-      border-bottom: 5vw solid transparent;
-} */
+#img-Video{
+    /* width: 750px;
+    height: 600px; */
+    border-radius: 10%;
+    border-color: #CE0033;
+    /* margin-top: -20px; */
+}
+ #Video{
+    background-image: url(Images/simp12.jpg);
+    border: #CE0033;
+    height: 600px; 
+    border-radius: 5%;
+    border-bottom: 1rem #CE0033 solid;
+    border-right: 1rem #CE0033 solid;
+    
+} 
+.shadow-lg {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.cer{
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #CE0033;
+  
+}
  

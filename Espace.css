@@ -58,6 +58,16 @@ body{
     display: inline-block;
     border-radius: 50%;
     background-color: #CE0033;
-  
 }
- 
+
+ button{
+     border: none;
+ }
+ .cercle{
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: red;
+ }

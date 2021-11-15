@@ -4,32 +4,223 @@ body{
     padding: 0;
     font-family: 'Nunito Sans', sans-serif;
 }
-@media only screen and (max-width: 600px) {
-    #barre {
-      display: inline;
+ @media only screen and (max-width: 600px) {
+    .bloc {
+        width: 0px;
+        height: 0px;
+        background-color: #FFFFFF;
     }
+    .barre{
+        width: 0px;
+        height: 0px;
+    }
+    .bouton1{
+        background-color: #CE0033; 
+        border-radius: 50%; 
+        width: 40px; 
+        height: 40px; 
+        color: #FFFFFF; 
+        border: #CE0033; 
+        font-weight: bold; 
+        font-size: 20px;
+        margin-left: 40%;
+    }
+    .bouton2{
+        border-radius: 50%; 
+        width: 40px; 
+        height: 40px; 
+        color: #CE0033; 
+        border-color: #CE0033; 
+        font-weight: bold; 
+        font-size: 20px;
+        margin-left: 40%;
+    }
+    .btn-mon{
+        background-color: #CE0033;
+        color: #FFFFFF;
+        border-radius: 40px; 
+        width: 90px; 
+        height: 40px;
+        font-size: 15px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .image-apropos{
+        width: 0px;
+        height: 0px;
+    }
+    .image-reseau{
+        background-color: #CE0033;
+    }
+    .bloc_parrain{
+        margin-top: -18%;
+    }
+    .parrain{
+        background-image: url(Images/bac1.png); 
+        height: 349px;
+    }
+} 
+@media only screen and (min-width: 600px) {
+    .bloc {
+        margin-top: 5%;
+        margin-left: 2%;
+        width: 100%; 
+        height: 15px; 
+        background-color: #A7ACB6;
+    }
+    .barre{
+        width: 110px; 
+        height: 2px; 
+        background-color: black;
+    }
+    p{
+        font-size: 25px;
+    }
+    .bouton1{
+        background-color: #CE0033; 
+        border-radius: 50%; 
+        width: 70px; 
+        height: 70px; 
+        color: #FFFFFF; 
+        border: #CE0033; 
+        font-weight: bold; 
+        font-size: 25px;
+    }
+    .bouton2{
+        border-radius: 50%; 
+        width: 70px; 
+        height: 70px; 
+        color: #CE0033; 
+        border-color: #CE0033; 
+        font-weight: bold; 
+        font-size: 25px;
+    }
+    .btn-mon{
+        background-color: #CE0033;
+        color: #FFFFFF;
+        border-radius: 40px; 
+        width: 180px; 
+        height: 50px;
+        font-size: 25px;
+    }
+    .image-apropos{
+        margin-top: -613px;
+    }
+    .image-reseau{
+        z-index: 1;
+        position: relative;
+    }
+    .bloc_parrain{
+        margin-top: -18%;
+    }
+    .parrain{
+        background-image: url(Images/bac1.png); 
+        height: 549px;
+    }
+} 
+h2, h3{
+    color: #CE0033;
+    font-weight: bold;
 }
-.bloc{
-    margin-top: 9%;
+.appel{
+    color: #FFFFFF;
 }
-#cohorte .card-title{
-    text-align: center;
+.Bu{
+    background-color: #FFFFFF;
+    color: #CE0033; 
+    border-radius: 40px; 
+    width: 200px; 
+    height: 50px;
 }
-#cohorte .card-text{
-    font-size: 25px;
+.card_lorem{
+    color: #FFFFFF;
 }
-#cohorte a{
-    
+hr{
+    background-color: #CE0033;
+}
+.espace{
+    background-color: #CE0033; 
+    text-align: center; 
+    color: #FFFFFF; 
+    height: 200px;
+}
+.espace h1{
+    font-weight: bold;
+}
+.image-1{
+    background-image: url(Images/simp12.jpg); 
+    width: 360px; 
+    height: 290px; 
+    border-radius: 10%; 
+    opacity: 0.4;
+}
+.image-1 h4{
+    background-color: #CE0033; 
+    text-align: center; 
+    color: #FFFFFF; 
+    margin-top: 139px;
+}
+.image-2{
+    background-image: url(Images/simp13.jpg); 
+    width: 360px; 
+    height: 350px; 
+    border-radius: 10%; 
+    opacity: 0.4;
+}
+.image-2 h4{
+    background-color: #574f51; 
+    text-align: center; 
+    color: #FFFFFF; 
+    margin-top: 169px;
+}
+.image-3{
+    background-image: url(Images/simp4.jpeg); 
+    width: 360px; 
+    height: 330px; 
+    border-radius: 10%; 
+    opacity: 0.4;
+}
+.image-3 h4{
+    background-color: #CE0033; 
+    text-align: center; 
+    color: #FFFFFF; 
+    margin-top: 169px;
+}
+.image-4{
+    background-image: url(Images/simp12.jpg); 
+    width: 360px; 
+    height: 290px; 
+    border-radius: 10%; 
+    opacity: 0.4;
+}
+.image-4 h4{
+    background-color: #CE0033; 
+    text-align: center; 
+    color: #FFFFFF; 
+    margin-top: 139px;
+}
+.voir{
+    color: #CE0033; 
+    font-weight: bold;
+    margin-left: 20px;
+}
+.date{
+    color: #CE0033;
+}
+
+
+
+
+/* #cohorte a{
     background-color: #CE0033;
     font-weight: bold;
     font-size: 25px;
     border-radius: 40px;
     height: 60px;
     width: 150px;
-}
+} */
 #img-Video{
-    /* width: 750px;
-    height: 600px; */
     border-radius: 10%;
     border-color: #CE0033;
     /* margin-top: -20px; */
@@ -43,7 +234,7 @@ body{
     border-right: 1rem #CE0033 solid;
     
 } 
-.shadow-lg {
+/* .shadow-lg {
     width: 60px;
     height: 60px;
     display: inline-block;
@@ -55,17 +246,26 @@ body{
     display: inline-block;
     border-radius: 50%;
     background-color: #CE0033;
-}
+} */
 
  button{
      border: none;
  }
  .cerre{
-    margin: -45px -179px;
+    margin: -41px -145px;;
  }
  @media only screen and (max-width: 600px) {
     .cerre {
       margin: 0px 5px;
+    }
+    .demi{
+        width: 0px;
+        height: 0px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .cerre {
+      margin: 0px 10px;
     }
     .demi{
         width: 0px;

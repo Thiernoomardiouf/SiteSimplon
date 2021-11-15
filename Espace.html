@@ -14,10 +14,50 @@
 <body>
   <main class="container-fluid">
     <header>
-        
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarColor03">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-sm-2" type="text" placeholder="Search">
+              <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     </header>
     <section>
-      <div class="container-fluid" style="background-color: #CE0033; text-align: center; color: #FFFFFF; height: 200px;">
+      <div class="container-fluid espace">
         <br><br>
         <h1>Espace</h1>
       </div>
@@ -25,49 +65,53 @@
      
     <section>
       <div class="container-fluid p-md-5">
-        <h2 style="color: #CE0033;">Apprenants</h2>
+        <h2>Apprenants</h2>
         <br>
-        <h3 style="color: #CE0033;">Je veux m'inscrire a une formation</h3>
-        <div style="width: 110px; height: 2px; background-color: black;"></div>
+        <h3>Je veux m'inscrire a une formation</h3>
+        <div class="barre"></div>
       </div>
-      <br><br><br>
-      <div class="container" id="barre">
-        <div class="row">
-        <div class="col-md-3" style="display: flex;">
-          <button style="background-color: #CE0033; border-radius: 50%; width: 70px; height: 70px; color: #FFFFFF; border: #CE0033; font-weight: bold; font-size: 25px;">01</button>
-          <div class="bloc" style="width: 250px; height: 15px; background-color: #A7ACB6;"></div>
-        </div>
-        <div class="col-md-3" style="display: flex;">
-          <button  style="border-radius: 50%; width: 70px; height: 70px; color: #CE0033; border-color: #CE0033; font-weight: bold; font-size: 25px;"> 02</button>
-          <div class="bloc" style="width: 250px; height: 15px; background-color: #A7ACB6;"></div>
-        </div>
-        <div class="col-md-3" style="display: flex;">
-          <button style="border-radius: 50%; width: 70px; height: 70px; color: #CE0033; border-color: #CE0033; font-weight: bold; font-size: 25px;"> 03</button>
-          <div class="bloc" style="width: 250px; height: 15px; background-color: #A7ACB6;"></div>
-        </div>
-        <div class="col-md-3" style="display: flex;">
-          <button style="border-radius: 50%; width: 70px; height: 70px; color: #CE0033; border-color: #CE0033; font-weight: bold; font-size: 25px;"> 04</button>
-        </div>
-      </div>
-      </div>
-      <br>
-      <div class="container">
-        <div class="row">
+      <div class="container-fluid p-md-5">
+        <div class="row p-md-5">
         <div class="col-md-3">
-          <h3 style="color: #CE0033;">Trouver sa formation</h3>
-          <p style="font-size: 25px;"> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> </p>
+         <div class="d-flex">
+          <button class="bouton1">01</button>
+          <div class="bloc w-100"></div> 
         </div>
-        <div class="col-md-3" style="opacity: 0.4;">
-          <h3 style="color: #CE0033;">Choisir la formation</h3>
-          <p style="font-size: 25px;"> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> </p>
+          <div class="">
+            <br>
+            <h3>Trouver sa formation</h3>
+            <p> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> </p>
+          </div>
         </div>
-        <div class="col-md-3" style="opacity: 0.4;">
-          <h3 style="color: #CE0033;">REnseignernles champs</h3>
-          <p style="font-size: 25px;"> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> </p>
+        <div class="col-md-3">
+         <div class="d-flex">
+          <button class="bouton2"> 02</button>
+          <div class="bloc"></div>
         </div>
-        <div class="col-md-3" style="opacity: 0.4;">
-          <h3 style="color: #CE0033;">Sinscrire</h3>
-          <p style="font-size: 25px;"> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> </p>
+        <div class="" style="opacity: 0.4;">
+          <br>
+          <h3>Choisir la formation</h3>
+          <p> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> </p>
+        </div>
+        </div>
+        <div class="col-md-3">
+          <div class="d-flex">
+          <button class="bouton2"> 03</button>
+          <div class="bloc"></div>
+        </div>
+        <div class="" style="opacity: 0.4;">
+          <br>
+          <h3>Renseigner les champs</h3>
+          <p> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> </p>
+        </div>
+        </div>
+        <div class="col-md-3">
+          <button class="bouton2"> 04</button>
+          <div class="" style="opacity: 0.4;">
+            <br>
+            <h3>Sinscrire</h3>
+            <p> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> Lorem Ipsum Lorem <br> </p>
+          </div>
         </div>
       </div>
       </div>
@@ -75,8 +119,8 @@
     
     <section>
       <div class="container-fluid p-md-5">
-        <h3 style="color: #CE0033;">Appel à candidature en cours</h3>
-        <div style="width: 110px; height: 2px; background-color: black;"></div>
+        <h3>Appel à candidature en cours</h3>
+        <div class="barre"></div>
       </div> 
       <div class="container-fluid p-md-5">
         <div class="row p-md-5">
@@ -87,17 +131,17 @@
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title text-center" style="color: #CE0033; font-size: 30px;" >DESIGNER</h5>
-                  <p class="card-text" style="font-size: 25px;"> At in neque convallis semper nunc plata eu eu. Faucibus porta faucibus sagittis dictum lorem ipsum lorem ipsum lorem ipsum<br> metus elementum quis eu diam lorem ipsum lorem ipsem metus elementum quis eu diam lorem lorem ipsum lorem ipsum lorem<br> metus elementum quis eu diam lorem ipsum lorem ipsem metus elementum quis eu diam lorem ipsum lorem ipsem lorem ipsum lorem ipsum lorem ipsum</p>
-                  <p class="card-text" style="font-size: 25px;"><small class="text-muted"> <span style="color: #CE0033;">Début &nbsp;&nbsp;</span>DECEMBRE &nbsp;&nbsp;&nbsp;<span style="color: #CE0033;">Fin &nbsp;&nbsp;</span>DECEMBRE</small></p> <br>
-                  <button style="background-color: #CE0033;color: #FFFFFF; border-radius: 40px; width: 100px; height: 50px;">S'inscrire</button>
+                  <h3 class="card-title text-center">DESIGNER</h3>
+                  <p class="card-text"> At in neque convallis semper nunc plata eu eu. Faucibus porta faucibus sagittis dictum lorem ipsum lorem ipsum lorem ipsum metus elementum quis eu diam lorem ipsum lorem ipsem metus elementum quis eu diam lorem lorem ipsum lorem ipsum lorem metus elementum quis eu diam lorem ipsum lorem ipsem metus elementum quis eu diam lorem ipsum lorem ipsem lorem ipsum lorem ipsum lorem ipsum</p>
+                  <p class="card-text"><small class="text-muted"> <span class="date">Début &nbsp;&nbsp;</span>DECEMBRE &nbsp;&nbsp;&nbsp;<span class="date">Fin &nbsp;&nbsp;</span>DECEMBRE</small></p> <br>
+                  <button type="button" class="btn btn-mon">S'inscrire</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="container-fluid p-md-5"> <hr style="background-color: #CE0033;"> </div>
+      <div class="container-fluid p-md-5"> <hr> </div>
       <div class="container-fluid p-md-5">
         <div class="row p-md-5">
           <div class="card mb-3" style="max-width: 100%; border: none;">
@@ -107,10 +151,10 @@
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title text-center" style="color: #CE0033; font-size: 30px;">Promo4 Dev Web</h5>
-                  <p class="card-text" style="font-size: 25px;">At in neque convallis semper nunc plata eu eu. Faucibus porta faucibus sagittis dictum lorem ipsum lorem ipsum lorem ipsum<br> metus elementum quis eu diam lorem ipsum lorem ipsem metus elementum quis eu diam lorem lorem ipsum lorem ipsum lorem<br> metus elementum quis eu diam lorem ipsum lorem ipsem metus elementum quis eu diam lorem ipsum lorem ipsem lorem ipsum lorem ipsum lorem ipsum</p>
-                  <p class="card-text" style="font-size: 25px;"><small class="text-muted"> <span style="color: #CE0033;">Début &nbsp;&nbsp;</span>DECEMBRE &nbsp;&nbsp;&nbsp;<span style="color: #CE0033;">Fin &nbsp;&nbsp;</span>DECEMBRE</small></p> <br>
-                  <button style="background-color: #CE0033;color: #FFFFFF; border-radius: 40px; width: 100px; height: 50px;">S'inscrire</button>
+                  <h3 class="card-title text-center" style="font-size: 30px;">Promo4 Dev Web</h3>
+                  <p class="card-text">At in neque convallis semper nunc plata eu eu. Faucibus porta faucibus sagittis dictum lorem ipsum lorem ipsum lorem ipsum metus elementum quis eu diam lorem ipsum lorem ipsem metus elementum quis eu diam lorem lorem ipsum lorem ipsum lorem metus elementum quis eu diam lorem ipsum lorem ipsem metus elementum quis eu diam lorem ipsum lorem ipsem lorem ipsum lorem ipsum lorem ipsum</p>
+                  <p class="card-text"><small class="text-muted"> <span class="date">Début &nbsp;&nbsp;</span>DECEMBRE &nbsp;&nbsp;&nbsp;<span class="date">Fin &nbsp;&nbsp;</span>DECEMBRE</small></p> <br>
+                  <button type="button" class="btn btn-mon">S'inscrire</button>
                 </div>
               </div>
             </div>
@@ -120,45 +164,38 @@
     </section>
 
     <section>
-      <div class="container-fluid p-5">
-        <br>
-        <h2 style="color: #CE0033;">Formateur</h2>
-        <br>
-        <h3 style="color: #CE0033;">Rejoindre le réseau des formateurs</h3>
-        <div style="width: 110px; height: 2px; background-color: black;"></div>
-      </div>   
-      <div class="container-fluid">
-        <div class="row">
-          <div class="card mb-3" style="max-width: 100%;">
-            <div class="row g-0" style="background-image: url(Images/bac3.png);" id="reseau">
-              <div class="col-md-6 p-md-5">
-                <div class="card-body">
+      <div class="container-fluid p-md-5">
+        <div class="container-fluid p-sm-3">
+         <div class="row image-reseau">
+                <div class="col-md-6 p-md-5 text-center">
                   <br><br>
-                  <h3 class="card-title" style="color: #CE0033; text-align: center; color: #FFFFFF;" >A propos du réseau</h3> <br>
-                  <p class="card-text" style="font-size: 25px; text-align: center; color: #FFFFFF;"> Lorem ipsum Lorem ipsum Lorem ipqum <br> Lorem ipsum Lorem ipsum Lorem ipqum Lorem ipsum <br> Lorem ipsum Lorem ipsum Lorem ipqum Lorem ipsem <br> Lorem ipsum Lorem ipsum Lorem ipqum <br><br>
-                    <button style="background-color: #FFFFFF;color: #CE0033; border-radius: 40px; width: 200px; height: 50px;">S'inscrire</button>
+                  <h3 class="appel">A propos du réseau</h3> <br>
+                  <p class="card_lorem"> Lorem ipsum Lorem ipsum Lorem ipqum <br> Lorem ipsum Lorem ipsum Lorem ipqum Lorem ipsum <br> Lorem ipsum Lorem ipsum Lorem ipqum Lorem ipsem <br> Lorem ipsum Lorem ipsum Lorem ipqum <br><br>
+                  <button class="Bu">S'inscrire</button>
                   </p>
                 </div>
-              </div>
-              <div class="col-md-6">
-                <br>
-                <img src="Images/simp10.png" class="img-fluid rounded-start" style="height: 400px; width: 700px;" alt="...">
-              </div>
-            </div>
+                <div class="col-md-6">
+                  <br>
+                  <img src="Images/bac4.png" class="img-fluid rounded-start w-75" alt="...">
+                </div>
           </div>
+          <div class="row">
+            <div class="col-md-12">
+              <img src="Images/bac3.png" class="img-fluid image-apropos" alt="...">
+            </div>
         </div>
       </div>
     </section>
     
     <section>
-      <div class="container-fluid p-5">
+      <div class="container-fluid p-md-5">
         <br>
-        <h2 style="color: #CE0033;">Entreprise</h2>
+        <h2>Entreprise</h2>
         <br>
-        <div style="display: flex;" class="row">
+        <div class="row d-flex">
           <div class="col-md-6">
-            <h3 style="color: #CE0033;">Recruter un talent </h3>
-            <div style="width: 110px; height: 2px; background-color: black;"></div>
+            <h3>Recruter un talent </h3>
+            <div class="barre"></div>
           </div>
           <div class="col-md-6">
             <div class="row">
@@ -205,44 +242,43 @@
 
     <section>
       <div class="container-fluid p-md-5">
-        <h3 style="color: #CE0033;">Deposer une offre</h3>
-        <div style="width: 110px; height: 2px; background-color: black;"></div>
+        <h3>Deposer une offre</h3>
+        <div class="barre"></div>
         <br>
         <div class="row">
-          <p style="font-size: 25px;">
-            Sur la gauche de l'ecran, repérez immédiatement ou vous en etes de votre saisie et complétez les champs 
-            dans l'ordre qui vous convient  lorem ipsum lorem ipsum lorem ipsum lorem ipsum<br>
-            Si vous interrompez votre saisie, celle-ci est automatiquement sauvegardée. Sur la gauche de l'ecran, repérez lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum<br>
-            immediatement ou vous en etes de votre saisie et complétez les champs dans l'ordre qui vous convient? lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum<br>
+          <p>
+            Sur la gauche de l'ecran, repérez immédiatement ou vous en etes de votre saisie et complétez les champs dans l'ordre qui vous convient  lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+            Si vous interrompez votre saisie, celle-ci est automatiquement sauvegardée. Sur la gauche de l'ecran, repérez lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+            immediatement ou vous en etes de votre saisie et complétez les champs dans l'ordre qui vous convient? lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
             Si vous interrompez votre saisie, celle-ci est automatiquement sauvegardée. lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
           </p>
         </div>
         <div class="row">
           <div class="col-md-6">
-            <img src="Images/sim11.png" class="img-fluid" alt="...">
+            <img src="Images/sim11.png" class="img-fluid h-75" alt="...">
           </div>
           <div class="col-md-6">
             <br><br>
-            <h3 style="color: #CE0033; text-align: center;">Veuillez renseigner le formulaire</h3>
+            <h3 class="text-center">Veuillez renseigner le formulaire</h3>
             <br>
-            <form class="row g-3 h-100">
+            <form class="row g-3 h-75">
               <div class="col-md-6">
-                <input type="text" class="form-control h-75" placeholder="Prénom *">
+                <input type="text" class="form-control h-50" placeholder="Prénom *">
               </div>
               <div class="col-md-6">
-                <input type="text" class="form-control h-75"  placeholder="Nom *">
+                <input type="text" class="form-control h-50"  placeholder="Nom *">
               </div>
               <div class="col-md-6">
-                <input type="text" class="form-control h-75"  placeholder="Entreprise *">
+                <input type="text" class="form-control h-50"  placeholder="Entreprise *">
               </div>
               <div class="col-md-6">
-                <input type="email" class="form-control h-75"  placeholder="Mail *">
+                <input type="email" class="form-control h-50"  placeholder="Mail *">
               </div>
               <div class="col-md-6">
-                <input type="text" class="form-control h-75"  placeholder="Tel *">
+                <input type="text" class="form-control h-50"  placeholder="Tel *">
               </div>
               <div class="col-md-6">
-                <input type="text" class="form-control h-75"  placeholder="Profil recherché *">
+                <input type="text" class="form-control h-50"  placeholder="Profil recherché *">
               </div>
               <div class="mb-3">
                 <textarea class="form-control h-75" id="exampleFormControlTextarea1" rows="3" placeholder="Message *"></textarea>
@@ -260,7 +296,7 @@
                 </div>
               </div>
               <div class="col-12">
-                <button type="submit" style="color: #FFFFFF; background-color: #CE0033; border-radius: 40px; width: 150px; height: 55px; font-size: 25px;">Envoyer</button>
+                <button class="btn-mon" type="submit">Envoyer</button>
               </div>
             </form>
           </div>
@@ -269,19 +305,17 @@
     </section>   
      
     <section>
-      <div class="container-fluid p-5">
-        <br>
-        <h2 style="color: #CE0033;">Devenir Partenaire</h2>
-        <br>
-        <h3 style="color: #CE0033;">Parrainer une cohorte</h3>
-        <div style="width: 110px; height: 2px; background-color: black;"></div>
+      <div class="container-fluid p-md-5">
+        <h2>Devenir Partenaire</h2>
+        <h3>Parrainer une cohorte</h3>
+        <div class="barre"></div>
       </div>
       
-      <div class="container-fluid"  style="background-image: url(Images/bac1.png); height: 549px;">
-        <div class="container" style="color: #FFFFFF;"> <br>
-           <h3>Nos parrains</h3>
-           <p style="font-size: 20px;">
-            Lorem Ipsum Lorem  Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem<br> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+      <div class="container-fluid parrain">
+        <div class="container"> <br>
+           <h3 class="appel">Nos parrains</h3>
+           <p class="appel">
+            Lorem Ipsum Lorem  Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
           </p>
         </div>
       </div>
@@ -317,19 +351,19 @@
     
     <section>
       <div class="container-fluid p-md-5" >
-        <div class="row">
+        <div class="row mt-5">
           <div class="card mb-3" style="max-width: 100%; border: none;">
             <div class="row g-0">
               <div class="col-md-6">
                 <div class="card-body">
-                  <h3 class="card-title" style="color: #CE0033; color: #CE0033;" >Ce qui est une cohorte</h3> <br>
-                  <p class="card-text" style="font-size: 25px;"> Le Lorem ipsum est, en imprimerie, une suite de mots Lorem ipsum Lorem ipsum Lorem<br> sans significaation utilisée à titre provisoire pour Lorem ipsum Lorem ipsum Lorem ipsum<br> calibrer une mise en page, le texte définitif venant Lorem ipsum Lorem ipsum Lorem ipsum<br> remplacer le faux-texte dès qu'il est prét ou que la Lorem ipsum Lorem ipsum Lorem<br> mise en page est acchevée. Généralement le Lorem ipsum Lorem ipsum Lorem<br> ipsum est, en imprimerie, une suite de mots sans Lorem ipsum Lorem ipsum Lorem <br> significaation utilisée à titre provisoire pour calibreer Lorem ipsum Lorem ipsum <br> une mise Lorem ipsum Lorem ipsum Lorem ipsum. <br>
+                  <h3 class="card-title">Ce qui est une cohorte</h3> <br>
+                  <p class="card-text"> Le Lorem ipsum est, en imprimerie, une suite de mots Lorem ipsum Lorem ipsum Lorem sans significaation utilisée à titre provisoire pour Lorem ipsum Lorem ipsum Lorem ipsum calibrer une mise en page, le texte définitif venant Lorem ipsum Lorem ipsum Lorem ipsum remplacer le faux-texte dès qu'il est prét ou que la Lorem ipsum Lorem ipsum Lorem mise en page est acchevée. Généralement le Lorem ipsum Lorem ipsum Lorem ipsum est, en imprimerie, une suite de mots sans Lorem ipsum Lorem ipsum Lorem significaation utilisée à titre provisoire pour calibreer Lorem ipsum Lorem ipsum une mise Lorem ipsum Lorem ipsum Lorem ipsum. <br>
                   <img src="Images/simp4.jpeg" class="img-fluid rounded-start h-75 w-75"  alt="...">
                   </p>
                 </div>
               </div>
               <div class="col-md-6">
-                <h3 class="card-title text-center" style="color: #CE0033; color: #CE0033;" >Nos cohorte en cours</h3> <br>
+                <h3 class="card-title text-center" >Nos cohorte en cours</h3> <br>
                 <div class="row">
                   <div class="col-md-3"></div>
                   <div class="col-md-6 my-5">
@@ -345,8 +379,8 @@
                               <img src="Images/simp5.png" class="card-img-top" alt="...">
                               <div class="card-body">
                                 <h3 class="card-title">Promo4 DWWm</h3>
-                                <p class="card-text ">Suite de mots sans significaation lorem ipsum lorem ipsum calibrer une mise en page, lorem<br> utilisée à titre provisoire pour lorem ipsum lorem ipsum calibrer une mise en page</p>
-                                <a href="#" class="btn btn-primary" >Parrainer</a>
+                                <p class="card-text ">Suite de mots sans significaation lorem ipsum lorem ipsum calibrer une mise en page, lorem utilisée à titre provisoire pour lorem ipsum lorem ipsum calibrer une mise en page</p>
+                                <a href="#" class="btn btn-mon" >Parrainer</a>
                               </div>
                             </div>
                         </div>
@@ -355,8 +389,8 @@
                               <img src="Images/simp6.jpg" class="card-img-top" alt="...">
                               <div class="card-body">
                                 <h3 class="card-title">Promo4 Ref digital</h3>
-                                <p class="card-text">Suite de mots sans significaation lorem ipsum lorem ipsum calibrer une mise en page, lorem<br> utilisée à titre provisoire pour lorem ipsum lorem ipsum calibrer une mise en page </p>
-                                <a href="#" class="btn btn-primary">Parrainer</a>
+                                <p class="card-text">Suite de mots sans significaation lorem ipsum lorem ipsum calibrer une mise en page, lorem utilisée à titre provisoire pour lorem ipsum lorem ipsum calibrer une mise en page </p>
+                                <a href="#" class="btn btn-mon">Parrainer</a>
                               </div>
                             </div>
                         </div>
@@ -365,8 +399,8 @@
                               <img src="Images/simp7.jpg" class="card-img-top" alt="...">
                               <div class="card-body">
                                 <h3 class="card-title">SASS Aqueuse</h3>
-                                <p class="card-text">Suite de mots sans significaation lorem ipsum lorem ipsum calibrer une mise en page,<br> utilisée à titre provisoire pour lorem ipsum lorem ipsum calibrer une mise en page </p>
-                                <a href="#" class="btn btn-primary">Parrainer</a>
+                                <p class="card-text">Suite de mots sans significaation lorem ipsum lorem ipsum calibrer une mise en page, utilisée à titre provisoire pour lorem ipsum lorem ipsum calibrer une mise en page </p>
+                                <a href="#" class="btn btn-mon">Parrainer</a>
                               </div>
                             </div>
                         </div>
@@ -392,8 +426,8 @@
 
     <section>
       <div class="container-fluid p-md-5">    
-        <h2 style="color: #CE0033;">Participer aux activités de la formations</h2>
-        <div style="width: 110px; height: 2px; background-color: black;"></div>
+        <h2>Participer aux activités de la formations</h2>
+        <div class="barre"></div>
       </div>
       <div class="container-fluid p-md-5" >
         <div class="row">
@@ -401,30 +435,36 @@
             <div class="row g-0">
               <div class="col-md-6">
                 <div class="card-body mr-5">
-                  <h2 class="card-title" style="color: #CE0033; color: #CE0033; font-weight: bold;" >Nos dernieres activités</h2> <br>
-                  <p class="card-text" style="font-size: 25px;"> 
-                    Le Lorem ipsum est, en imprimerie, une suite de mots Lorem ipsum Lorem ipsum Lorem ipsum sans significaation utilisée à titre provisoire pour Lorem ipsum Lorem ipsum Lorem ipsum calibrer une mise en page, le texte définitif venant Lorem ipsum Lorem ipsum Lorem ipsum remplacer le faux-texte dès qu'il est prét ou que la Lorem ipsum Lorem ipsum Lorem ipsum mise en page est acchevée. Généralement le Lorem ipsum Lorem ipsum Lorem ipsum ipsum est, en imprimerie, une suite de mots sans Lorem ipsum Lorem ipsum Lorem ipsum significaation utilisée à titre provisoire pour calibreer Lorem ipsum Lorem ipsum Lorem ipsum une mise Lorem ipsum Lorem ipsum Lorem ipsum. <br>
-                    Le Lorem ipsum est, en imprimerie, une suite de mots Lorem ipsum Lorem ipsum Lorem ipsum sans significaation utilisée à titre provisoire pour Lorem ipsum Lorem ipsum Lorem ipsum calibrer une mise en page, le texte définitif venant Lorem ipsum Lorem ipsum Lorem ipsum remplacer le faux-texte dès qu'il est prét ou que la Lorem ipsum Lorem ipsum Lorem ipsum mise en page est acchevée. Généralement le Lorem ipsum Lorem ipsum Lorem ipsum ipsum est, en imprimerie, une suite de mots sans Lorem ipsum Lorem ipsum Lorem ipsum significaation utilisée à titre provisoire pour calibreer Lorem ipsum Lorem ipsum Lorem ipsum une mise Lorem ipsum Lorem ipsum Lorem ipsum. <br>
+                  <h2 class="card-title">Nos dernieres activités</h2> <br>
+                  <p class="card-text"> 
+                    Le Lorem ipsum est, en imprimerie, une suite de mots Lorem ipsum Lorem ipsum Lorem ipsum sans significaation utilisée à titre provisoire pour Lorem ipsum Lorem ipsum Lorem ipsum calibrer une mise en page, le texte définitif venant Lorem ipsum Lorem ipsum Lorem ipsum remplacer le faux-texte dès qu'il est prét ou que la Lorem ipsum Lorem ipsum Lorem ipsum mise en page est acchevée. Généralement le Lorem ipsum Lorem ipsum Lorem ipsum ipsum est, en imprimerie, une suite de mots 
+                    Le Lorem ipsum est, en imprimerie, une suite de mots Lorem ipsum Lorem ipsum Lorem ipsum sans significaation utilisée à titre provisoire pour Lorem ipsum Lorem ipsum Lorem ipsum calibrer une mise en page, le texte définitif venant Lorem ipsum Lorem ipsum Lorem ipsum remplacer le faux-texte dès qu'il est prét ou que la Lorem ipsum Lorem ipsum Lorem ipsum mise en page est acchevée. Généralement le Lorem ipsum Lorem ipsum Lorem ipsum ipsum est, en imprimerie, une suite de mots 
                   </p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="row m-1">
-                  <div class="col-md-6 my-5" style="background-image: url(Images/simp12.jpg); width: 437px; height: 290px; border-radius: 10%; opacity: 0.4;">
-                      <h4  style="background-color: #CE0033; text-align: center; color: #FFFFFF; margin-top: 139px;"> Lancement promotion SASS</h4> 
+                  <div class="col-md-6 my-5 image-1">
+                      <h4> Lancement promotion SASS</h4> 
                   </div>
-                  <div class="col-md-6 mx-md-5" style="background-image: url(Images/simp13.jpg); width: 375px; height: 350px; border-radius: 10%; opacity: 0.4;">
-                    <h4 style="background-color: #574f51; text-align: center; color: #FFFFFF; margin-top: 169px;">Atelier simplon kids</h4>
+                  <div class="col-md-6 mx-md-5 image-2">
+                    <h4>Atelier simplon kids</h4>
                   </div>
                 </div>
                 <div class="row m-1">
-                  <div class="col-md-6" style="background-image: url(Images/simp4.jpeg); width: 375px; height: 350px; border-radius: 10%; opacity: 0.4;">
-                    <h4 style="background-color: #CE0033; text-align: center; color: #FFFFFF; margin-top: 169px;">Sourcing wmntech</h4>
+                  <div class="col-md-6 image-3">
+                    <h4>Sourcing wmntech</h4>
                   </div>
-                  <div class="col-md-6 mx-md-5" style="background-image: url(Images/simp12.jpg); width: 437px; height: 290px; border-radius: 10%; opacity: 0.4;">
-                    <h4 style="background-color: #CE0033; text-align: center; color: #FFFFFF; margin-top: 139px;">Atelier de lorem lorem</h4>
+                  <div class="col-md-6 mx-md-5 image-4">
+                    <h4>Atelier de lorem lorem</h4>
                   </div>
-                  <h3 class="card-title mx-5" style="color: #CE0033; color: #CE0033; text-align: center; font-weight: bold;" > <span>Voir toutes nos activites</span></h3>
+                  
+                </div>
+                <div class="row">
+                  <div class="col-md-6"></div>
+                  <div class="col-md-6">
+                    <h4 class="card-title voir"> Voir toutes nos activites</h4>
+                  </div>
                 </div>
               </div>
             </div>
@@ -435,7 +475,7 @@
 
     <section>
       <div class="container-fluid p-md-5">    
-        <h2 style="color: #CE0033; font-weight: bold;">Participer aux activités de la formations</h2>
+        <h2 style="font-weight: bold;">Participer aux activités de la formations</h2>
         <div class="row">
           <div class="col-md-6">
             <!-- <div class="w-100" id="Video">
@@ -454,8 +494,8 @@
             <img src="Images/video1.png" class="card-img-top h-75 w-75" alt="...">
           </div>
           <div class="col-md-6 p-md-5">
-            <h2 style="color: #CE0033; font-weight: bold;">Votre participation lorem lorem</h2>
-            <p style="font-size: 30px;">
+            <h2 style="font-weight: bold;">Votre participation lorem lorem</h2>
+            <p>
               Le lorem ipsum est, en imprimerie, une suite de Le lorem ipsum est, en imprimerie, une suite de 
               mots sans signification utilisée à titre provisoire mots sans signification utilisée à titre provisoire
               pour calibrer une mise en page, le texte définitif pour calibrer une mise en page,
@@ -466,7 +506,7 @@
                     <img src="Images/coche.png" class="card-img-top" alt="..." style="width: 30px; height: 30px;">
                   </div>
                     <div>
-                      <span style="font-size: 30px;"> &nbsp; Le lorem ipsum  <br> &nbsp; &nbsp; imprimerie </span> 
+                      <p> &nbsp; Le lorem ipsum  <br> &nbsp; &nbsp; imprimerie </p> 
                   </div>
                 </div>
                 <div class="col-md-6 d-flex">
@@ -474,7 +514,7 @@
                     <img src="Images/coche.png" class="card-img-top" alt="..." style="width: 30px; height: 30px;">
                   </div>
                     <div>
-                      <span style="font-size: 30px;"> &nbsp; Le lorem ipsum  <br> &nbsp; &nbsp; imprimerie </span> 
+                      <p> &nbsp; Le lorem ipsum  <br> &nbsp; &nbsp; imprimerie </p>> 
                   </div>
                 </div>
               </div>
@@ -484,7 +524,7 @@
                     <img src="Images/coche.png" class="card-img-top" alt="..." style="width: 30px; height: 30px;">
                   </div>
                     <div>
-                      <span style="font-size: 30px;"> &nbsp; Le lorem ipsum  <br> &nbsp; &nbsp; imprimerie </span> 
+                      <p> &nbsp; Le lorem ipsum  <br> &nbsp; &nbsp; imprimerie </p> 
                   </div>
                 </div>
                 <div class="col-md-6 d-flex">
@@ -492,7 +532,7 @@
                     <img src="Images/coche.png" class="card-img-top" alt="..." style="width: 30px; height: 30px;">
                   </div>
                     <div>
-                      <span style="font-size: 30px;"> &nbsp; Le lorem ipsum  <br> &nbsp; &nbsp; imprimerie </span> 
+                      <p> &nbsp; Le lorem ipsum  <br> &nbsp; &nbsp; imprimerie </p> 
                   </div>
                 </div>
               </div>
@@ -505,8 +545,8 @@
       <div class="container-fluid p-md-5">    
         <div class="row">
           <div class="col-md-6">
-            <h2 style="color: #CE0033; font-weight: bold;">Comment Participer</h2>
-            <p style="font-size: 25px;"> <br><br>
+            <h2>Comment Participer</h2>
+            <p> <br><br>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus deleniti laboriosam optio veritatis atque, 
               delectus minima. Maiores, possimus cupiditate iste, dolore soluta debitis eaque eveniet perferendis, explicabo rerum iusto 
               magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sapiente eos deserunt accusantium quaerat facere pariatur 
@@ -539,13 +579,13 @@
 
     <section>
         <div class="container-fluid p-md-5">
-          <h3 style="color: #CE0033;">Proposer un projet</h3>
-          <div style="width: 110px; height: 2px; background-color: black;"></div>
+          <h3>Proposer un projet</h3>
+          <div class="barre"></div>
           <br><br>
           <div class="row" style="background-image: url(Images/bac.png);">
             <div class="col-md-6">
-                <h3 style="color: #CE0033; font-size: 27px; font-weight: bold;">Un accompagnement pour vos projets</h3> <br>
-                <p style="font-size: 27px;">On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions,
+                <h3>Un accompagnement pour vos projets</h3> <br>
+                <p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions,
                   et empêche de se concentrer sur la mise sur un texte générique comme 'Du texte. Du texte. Et empêche de se concentrer 
                   sur la mise sur un texte générique comme 'Du texte. Du texte On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions,
                   et empêche de se concentrer sur la mise sur un texte générique comme 'Du texte. Du texte. Et empêche de se concentrer 
@@ -554,7 +594,7 @@
             </div>
             <div class="col-md-6">
               <img src="Images/bac2.png" class="card-img-top w-100" alt="..."> 
-              <h3 style="color: #CE0033; font-weight: bold; text-align: center;"> Votre projet de A a Z</h3>
+              <h3 class="text-center"> Votre projet de A a Z</h3>
             </div>
           </div>
         </div>
@@ -563,8 +603,8 @@
 
     <section>
       <div class="container">
-      <h3 style="color: #CE0033; text-align: center;">Ils en parlent</h3>
-       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <h3 class="text-center">Ils en parlent</h3>
+       <div id="carouselExampleIndicatorsa" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-color: #CE0033;"></button>
            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style="background-color: #CE0033;"></button>
@@ -597,33 +637,33 @@
      <div class="container-fluid p-md-5">
        <div class="row">
         <div class="col-md-4">
-          <h3 style="font-size: 35px;">Ils nous ont confié leur projet</h3>
+          <h3>Ils nous ont confié leur projet</h3>
           <img src="Images/groupe.png" class="img-fluid h-75" alt="...">
         </div>
         <div class="col-md-8">
-           <h3 style="color: #CE0033; text-align: center; font-size: 35px;">Déposer ici votre offre</h3>
+           <h3 class="text-center">Déposer ici votre offre</h3>
            <br>
            <form class="row g-3 h-100">
                <div class="col-md-6">
-                  <input type="text" class="form-control h-75" placeholder="Prénom *">
+                  <input type="text" class="form-control h-50" placeholder="Prénom *">
                 </div>
                 <div class="col-md-6">
-                  <input type="text" class="form-control h-75"  placeholder="Nom *">
+                  <input type="text" class="form-control h-50"  placeholder="Nom *">
                 </div>
                 <div class="col-md-6">
-                  <input type="text" class="form-control h-75"  placeholder="Entreprise *">
+                  <input type="text" class="form-control h-50"  placeholder="Entreprise *">
                 </div>
                 <div class="col-md-6">
-                  <input type="email" class="form-control h-75"  placeholder="Mail *">
+                  <input type="email" class="form-control h-50"  placeholder="Mail *">
                 </div>
                 <div class="col-md-6">
-                  <input type="text" class="form-control h-75"  placeholder="Tel *">
+                  <input type="text" class="form-control h-50"  placeholder="Tel *">
                 </div>
                 <div class="col-md-6">
-                  <input type="text" class="form-control h-75"  placeholder="Profil recherché *">
+                  <input type="text" class="form-control h-50"  placeholder="Profil recherché *">
                 </div>
                 <div class="mb-3">
-                  <textarea class="form-control h-75" id="exampleFormControlTextarea1" rows="3" placeholder="Message *"></textarea>
+                  <textarea class="form-control h-75" id="exampleFormControlTextarea1a" rows="3" placeholder="Message *"></textarea>
                 </div>
                 <div class="mb-3">
                   <input type="file" class="form-control w-25" aria-label="file example" required>
@@ -631,14 +671,14 @@
                 </div>
                 <div class="col-12">
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <input class="form-check-input" type="checkbox" id="gridChecke">
                     <label class="form-check-label" for="gridCheck">
                       I agree to terms et policy
                     </label>
                   </div>
                 </div>
                 <div class="col-12">
-                  <button type="submit" style="color: #FFFFFF; background-color: #CE0033; border-radius: 40px; width: 150px; height: 55px; font-size: 25px;">Envoyer</button>
+                  <button type="submit" class="btn btn-mon">Envoyer</button>
                 </div>
               </form>
               <p> * These fields are required</p>

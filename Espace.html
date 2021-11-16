@@ -12,57 +12,58 @@
     <title>Site Simplon</title>
 </head>
 <body>
-  <main class="container-fluid">
+  
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white shadow-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="Images/logo.png" class="navbar-brand logo img-fluid" alt="...">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-      
-          <div class="collapse navbar-collapse" id="navbarColor03">
-            <ul class="navbar-nav me-auto">
+          <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav d-flex align-items-center justify-content-around w-100">
               <li class="nav-item">
-                <a class="nav-link active" href="#">Home
-                  <span class="visually-hidden">(current)</span>
-                </a>
+                <a class="nav-link" href="#">Accueil</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Fabrique</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#">Formation</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#">Partenariats</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Separated link</a>
-                </div>
+              <li class="nav-item">
+                <a class="nav-link" id="active" href="#">Espaces</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Entités</a>
+              </li>
+              <li class="nav-item "><img src="Images/recherche.png" alt="image search"></li>
+              <li class="nav-item ">
+                <select class="form-select form-select-lg mb-3 select my-lg-5 my-md-0 my-sm-0" aria-label=".form-select-lg example">
+                    <option value="fr">Fr</option>
+                    <option value="en">En</option>
+                  </select>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-danger btn-red"> Contact</button>
               </li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-sm-2" type="text" placeholder="Search">
-              <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-            </form>
           </div>
         </div>
       </nav>
     </header>
+
+    
     <section>
       <div class="container-fluid espace">
-        <br><br>
-        <h1>Espace</h1>
+        <h1 class="p-md-5">Espace</h1>
       </div>
     </section>
-     
+   
+    <main class="container-fluid">  
     <section>
       <div class="container-fluid p-md-5">
         <h2>Apprenants</h2>
@@ -168,14 +169,12 @@
         <div class="container-fluid p-sm-3">
          <div class="row image-reseau">
                 <div class="col-md-6 p-md-5 text-center">
-                  <br><br>
-                  <h3 class="appel">A propos du réseau</h3> <br>
+                  <h3 class="appel">A propos du réseau</h3> 
                   <p class="card_lorem"> Lorem ipsum Lorem ipsum Lorem ipqum <br> Lorem ipsum Lorem ipsum Lorem ipqum Lorem ipsum <br> Lorem ipsum Lorem ipsum Lorem ipqum Lorem ipsem <br> Lorem ipsum Lorem ipsum Lorem ipqum <br><br>
                   <button class="Bu">S'inscrire</button>
                   </p>
                 </div>
                 <div class="col-md-6">
-                  <br>
                   <img src="Images/bac4.png" class="img-fluid rounded-start w-75" alt="...">
                 </div>
           </div>
@@ -184,6 +183,7 @@
               <img src="Images/bac3.png" class="img-fluid image-apropos" alt="...">
             </div>
         </div>
+       </div>
       </div>
     </section>
     
@@ -502,34 +502,34 @@
               le texte définitif venant lorem ipsum  <br>
               <div class="row">
                 <div class="col-md-6 d-flex">
-                  <div class="shadow-lg p-3 mb-5 bg-body rounded-circle">
-                    <img src="Images/coche.png" class="card-img-top" alt="..." style="width: 30px; height: 30px;">
+                  <div class="shadow-lg p-md-3 mb-5 bg-body rounded-circle">
+                    <img src="Images/coche.png" class="card-img-top fleche" alt="...">
                   </div>
                     <div>
                       <p> &nbsp; Le lorem ipsum  <br> &nbsp; &nbsp; imprimerie </p> 
                   </div>
                 </div>
                 <div class="col-md-6 d-flex">
-                  <div class="shadow-lg p-3 mb-5 bg-body rounded-circle">
-                    <img src="Images/coche.png" class="card-img-top" alt="..." style="width: 30px; height: 30px;">
+                  <div class="shadow-lg p-md-3 mb-5 bg-body rounded-circle">
+                    <img src="Images/coche.png" class="card-img-top fleche" alt="...">
                   </div>
                     <div>
-                      <p> &nbsp; Le lorem ipsum  <br> &nbsp; &nbsp; imprimerie </p>> 
+                      <p> &nbsp; Le lorem ipsum  <br> &nbsp; &nbsp; imprimerie </p>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-6 d-flex">
-                  <div class="shadow-lg p-3 mb-5 bg-body rounded-circle">
-                    <img src="Images/coche.png" class="card-img-top" alt="..." style="width: 30px; height: 30px;">
+                  <div class="shadow-lg p-md-3 mb-5 bg-body rounded-circle">
+                    <img src="Images/coche.png" class="card-img-top fleche" alt="...">
                   </div>
                     <div>
                       <p> &nbsp; Le lorem ipsum  <br> &nbsp; &nbsp; imprimerie </p> 
                   </div>
                 </div>
                 <div class="col-md-6 d-flex">
-                  <div class="shadow-lg p-3 mb-5 bg-body rounded-circle">
-                    <img src="Images/coche.png" class="card-img-top" alt="..." style="width: 30px; height: 30px;">
+                  <div class="shadow-lg p-md-3 mb-5 bg-body rounded-circle">
+                    <img src="Images/coche.png" class="card-img-top fleche" alt="...">
                   </div>
                     <div>
                       <p> &nbsp; Le lorem ipsum  <br> &nbsp; &nbsp; imprimerie </p> 
@@ -690,7 +690,7 @@
    <footer>
 
    </footer>
-
+  <script src="espace.js"></script>
   </main>
 </body>
 </html>
